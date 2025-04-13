@@ -17,7 +17,7 @@ from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSRF_TRUSTED_ORIGINS = ["https://web-production-c3d02.up.railway.app/"]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-c3d02.up.railway.app"]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -62,7 +62,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR,'template/')
+            os.path.join(BASE_DIR,'template')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
