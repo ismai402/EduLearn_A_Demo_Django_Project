@@ -1,1 +1,1 @@
-web: gunicorn Edulearn.wsgi
+web: gunicorn edulearn.wsgi
